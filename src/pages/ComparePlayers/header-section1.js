@@ -1,11 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-function PlayersHeader() {
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function Headersection1() {
   return (
     <>
-     <div class="container-fluid" id="heading_background">
+   <div class="container-fluid" id="heading_background">
         <div class="container-md">
-            <div class="row" style={{textAlign: "center"}}  id="control">
+            <div class="row" style={{textAlign: "center"}} id="control">
                 <nav class="navbar navbar-dark navbar-expand-md nav-fill" style={{background: "transparent"}}>
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                         <span class="navbar-toggler-icon"></span>
@@ -23,15 +24,15 @@ function PlayersHeader() {
                                 </button>
                               </div>
                             </li>
-                            <Link to="/compareplayers"><li class="nav-item p-2"><a href="#" class="nav-link">Compare Players</a></li></Link>
-                            <li class="nav-item p-2"><a href="#" class="nav-link">Team</a></li>
+                            <Link to="/compareplayers"><li class="nav-item p-2"><a href="compareplayers" class="nav-link">Compare Players</a></li></Link>
+                            <Link to="/team"><li class="nav-item p-2"><a href="#" class="nav-link">Team</a></li></Link>
                             <li class="nav-item p-2"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#comparison_modal">Account</a></li>
                             
                         </ul>
                         
                     </div>
                 </nav>
-                  <hr style={{color:"white", padding: "0%"}}/>
+                <hr style={{color:"white", padding: "0%"}}/>
             </div>
   
             <div class="row align-items-right" style={{padding:"5% 0%"}}>
@@ -41,8 +42,8 @@ function PlayersHeader() {
             </div>
         </div>
     </div>
-    </>
-  );
+  </>
+  )
 }
 
-export default PlayersHeader;
+export default Headersection1

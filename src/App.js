@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Playerprofile from "./pages/PlayersProfile";
+import  Compareplayers from "./pages/ComparePlayers/index";
+import Team from "./pages/Team/index";
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/playerprofile" element={<Playerprofile />} />
+        <Route path="/compareplayers" element={<Compareplayers />} />
+        <Route path="/team" element={<Team/>} />
       </Routes>
     </BrowserRouter>
   );

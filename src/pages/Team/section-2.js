@@ -1,9 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-function PlayersHeader() {
+import React from 'react'
+import Headersection1 from '../ComparePlayers/header-section1'
+
+function Section2() {
   return (
     <>
-     <div class="container-fluid" id="heading_background">
+    <Headersection1/>
+
+{/* <div class="container-fluid" id="heading_background">
         <div class="container-md">
             <div class="row" style={{textAlign: "center"}}  id="control">
                 <nav class="navbar navbar-dark navbar-expand-md nav-fill" style={{background: "transparent"}}>
@@ -12,7 +15,7 @@ function PlayersHeader() {
                     </button>
                     <div class="navbar-collapse collapse" id="navbar">
                         <ul class="navbar-nav nav" style={{textAlign: "center"}}>
-                            <Link to="/home"><li class="nav-item p-2"><a href="#" class="nav-link">Home</a></li></Link>
+                            <li class="nav-item p-2"><a href="#" class="nav-link">Home</a></li>
                             <li class="nav-item p-2">
                               <div class="input-group">
                                 <div class="form-outline">
@@ -23,7 +26,7 @@ function PlayersHeader() {
                                 </button>
                               </div>
                             </li>
-                            <Link to="/compareplayers"><li class="nav-item p-2"><a href="#" class="nav-link">Compare Players</a></li></Link>
+                            <li class="nav-item p-2"><a href="#" class="nav-link">Compare Players</a></li>
                             <li class="nav-item p-2"><a href="#" class="nav-link">Team</a></li>
                             <li class="nav-item p-2"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#comparison_modal">Account</a></li>
                             
@@ -31,7 +34,7 @@ function PlayersHeader() {
                         
                     </div>
                 </nav>
-                  <hr style={{color:"white", padding: "0%"}}/>
+                <hr style={{color:"white", padding: "0%"}}/>
             </div>
   
             <div class="row align-items-right" style={{padding:"5% 0%"}}>
@@ -40,9 +43,9 @@ function PlayersHeader() {
                 
             </div>
         </div>
-    </div>
+    </div> */}
     </>
-  );
+  )
 }
 
-export default PlayersHeader;
+export default Section2

@@ -35,11 +35,7 @@ function Navbar() {
                       </button>
                     </div>
                   </li>
-                  <li className="nav-item p-2">
-                    <a href="#" className="nav-link">
-                      Compare Players
-                    </a>
-                  </li>
+                  <Link to="/compareplayers"><li class="nav-item p-2"><a href="#" class="nav-link">Compare Players</a></li></Link>
                   <li className="nav-item p-2">
                     <a href="#" className="nav-link">
                       Team
