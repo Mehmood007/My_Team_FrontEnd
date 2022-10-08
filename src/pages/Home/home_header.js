@@ -31,7 +31,7 @@ function Navbar() {
                         />
                       </div>
                       <button type="button" className="btn btn-success d-inline">
-                        <i className="fas fa-search"></i>
+                        <i className="fa fa-search"></i>
                       </button>
                     </div>
                   </li>

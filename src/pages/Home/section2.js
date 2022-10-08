@@ -15,8 +15,9 @@ function section2() {
             />
             <h4 className="mb-3">Plan</h4>
             <span className="small text-uppercase text-muted"
-              >Planning is most essential part to achieve goal. An hour of planning can save you 10 hours of doing. A goal without a plan is just a wish.</span
-            >
+              >Planning is most essential part to achieve goal. An hour of planning can save you 10 hours of doing. A goal without a plan
+              
+              </span>
           </div>
         </div>
         
